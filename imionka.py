@@ -947,7 +947,7 @@ if sekcja == 'Analiza korespondencji':
     st.subheader('Aby wykres był bardziej czytelny, zamiast nazw województw widzimy liczby odpowiadające indentyfikatorom poszczególnego terytorium z ' +
 		 'Wykazu identyfikatorów i nazw jednostek podziału terytorialnego kraju. Wyjaśnienie przedstawia niżej umieszczona tabelka: ')
 
-    st.image('imionaa/PII/tabelka.png')
+    st.image('PII/tabelka.png')
 
     roczek_opcje=["2019","2020","2021"][::-1]
     roczek_wybrany = st.selectbox("Wybierz rok:", roczek_opcje)
