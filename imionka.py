@@ -269,10 +269,14 @@ if sekcja == 'Trendy':
 	
 	
 	
-if sekcja == 'Litery w imionach':	
+if sekcja == 'Litery w imionach':
+    new_title = '<b style="color:rgb(0, 80, 170); font-size: 62px;">Imiona nadawane dzieciom w Polsce - analiza </p>'
+    st.markdown(new_title, unsafe_allow_html=True)
+    st.markdown('---')
+    st.title('Analiza pierwszej i ostatniej litery imienia')
+	
     # PIERWSZA LITERA
 	#liczba dziewczynek
-    st.header('Analiza pierwszej i ostatniej litery imienia')
     rok=st.selectbox("Wybierz rok:", list(range(2000,2023))[::-1])
     st.header('Pierwsza litera - imiona żeńskie')
     c1, c2 = st.columns(2)
@@ -340,6 +344,10 @@ if sekcja == 'Litery w imionach':
 
 
 if sekcja == 'Najczęściej nadawane imiona':
+    new_title = '<b style="color:rgb(0, 80, 170); font-size: 62px;">Imiona nadawane dzieciom w Polsce - analiza </p>'
+    st.markdown(new_title, unsafe_allow_html=True)
+    st.markdown('---')
+    st.title('Najczęściej nadawane imiona')
 	#Najczęsciej nadawane imiona dzieciom w Polsce
     st.subheader("Imiona najczęściej nadawane dzieciom w Polsce w latach 2000-2022")
     dowyboru=list(range(2000,2023)[::-1])
