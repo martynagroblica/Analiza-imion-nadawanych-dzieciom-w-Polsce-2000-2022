@@ -972,7 +972,7 @@ if sekcja == 'Analiza korespondencji':
         st.image('PII/chl2020.png', width=1000)
         st.subheader("Analiza korespondencji najczęściej nadawanych imion żeńskich (TOP 10 Z każdego województwa) i województw")
         st.write("Skumulowana proporcja bezwładności dla 2 wymiarów wynosi 0.447")
-        st.image('PII/dz2020_pop.png', width=1000)
+        st.image('PII/dz2020_popr.png', width=1000)
     if roczek_wybrany == "2021":
         st.subheader("Analiza korespondencji najczęściej nadawanych imion męskich (TOP 10 Z każdego województwa) i województw")
         st.write("Skumulowana proporcja bezwładności dla 2 wymiarów wynosi 0.511")
