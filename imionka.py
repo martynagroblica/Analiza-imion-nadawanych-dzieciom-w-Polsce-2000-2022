@@ -157,7 +157,8 @@ if sekcja == 'Strona główna':
 								     12, 2, 4, 47]
 			})
     st.subheader('Imiona, które były nadawane zarówno chłopcom jak i dziewczynkom')
-    st.dataframe(dziwne,unsafe_allow_html=True)
+    c77,c78,c79 = st.columns([1,5,1])
+    c78.dataframe(dziwne)
 	
 	
 	
