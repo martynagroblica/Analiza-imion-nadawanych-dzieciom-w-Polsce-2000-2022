@@ -167,7 +167,7 @@ if sekcja == 'Strona główna':
 	
 
 	
-if sekcja == 'Trendy':
+elif sekcja == 'Trendy':
     new_title = '<b style="color:rgb(0, 80, 170); font-size: 62px;">Imiona nadawane dzieciom w Polsce - analiza</p>'
     st.markdown(new_title, unsafe_allow_html=True)
     st.markdown('---')
@@ -269,7 +269,7 @@ if sekcja == 'Trendy':
 	
 	
 	
-if sekcja == 'Litery w imionach':
+elif sekcja == 'Litery w imionach':
     new_title = '<b style="color:rgb(0, 80, 170); font-size: 62px;">Imiona nadawane dzieciom w Polsce - analiza </p>'
     st.markdown(new_title, unsafe_allow_html=True)
     st.markdown('---')
@@ -343,7 +343,7 @@ if sekcja == 'Litery w imionach':
     
 
 
-if sekcja == 'Najczęściej nadawane imiona':
+elif sekcja == 'Najczęściej nadawane imiona':
     new_title = '<b style="color:rgb(0, 80, 170); font-size: 62px;">Imiona nadawane dzieciom w Polsce - analiza </p>'
     st.markdown(new_title, unsafe_allow_html=True)
     st.markdown('---')
@@ -945,7 +945,7 @@ if sekcja == 'Najczęściej nadawane imiona':
     
    #ANALIZA KORESPONDENCJI
    
-if sekcja == 'Analiza korespondencji':
+elif sekcja == 'Analiza korespondencji':
     new_title = '<b style="color:rgb(0, 80, 170); font-size: 62px;">Imiona nadawane dzieciom w Polsce - analiza</p>'
     st.markdown(new_title, unsafe_allow_html=True)
     st.markdown('---')
