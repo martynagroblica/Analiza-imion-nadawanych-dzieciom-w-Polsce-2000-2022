@@ -2,13 +2,12 @@ import os
 import openpyxl
 import streamlit as st
 import pandas as pd
-import numpy as np
+import numpy as nps
 import plotly.express as px
 import plotly.graph_objects as go
 from urllib.request import urlopen
 import json
 
-#asdas
 
 
 st.set_page_config(page_title='Imiona nadawane dzieciom w Polsce - analiza', page_icon = ':family:', layout='wide')
