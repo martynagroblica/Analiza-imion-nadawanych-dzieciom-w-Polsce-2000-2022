@@ -994,6 +994,7 @@ elif sekcja == 'Analiza korespondencji':
    
     
 
+	
     
     
     
